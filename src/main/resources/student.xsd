@@ -18,13 +18,13 @@
         </xs:complexType>
     </xs:element>
 
-      <xs:element name="student">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="index" type="xs:long"/>
-                <xs:element name="firstName" type="xs:string"/>
-                <xs:element name="lastName" type="xs:string"/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
+
+    <xs:complexType name="student">
+        <xs:sequence>
+            <xs:element name="index" type="xs:long"/>
+            <xs:element name="firstName" type="xs:string"/>
+            <xs:element name="lastName" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
 </xs:schema>

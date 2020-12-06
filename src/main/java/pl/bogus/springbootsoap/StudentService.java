@@ -18,12 +18,21 @@ public class StudentService {
 
     @PostConstruct
     private void loadExample() {
-        Student students = new Student();
+
+        Student student = new Student();
+        student.setIndex(1);
+        student.setFirstName("John");
+        student.setLastName("Wick");
+
+
 
         Student student2 = new Student();
 
+        student.setIndex(2);
+        student.setFirstName("Johny");
+        student.setLastName("Bravo");
         this.students.add(student2);
-        this.students.add(students);
+        this.students.add(student);
 
     }
 
